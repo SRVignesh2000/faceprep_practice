@@ -6,6 +6,17 @@ public class Pattern12 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		//pattern
+//		p     n
+//		 a   r 
+//		  t e  
+//		   t   
+//		  t e  
+//		 a   r 
+//		p     n
+		
+		
 		Scanner scanner = new Scanner(System.in);
 		String name = scanner.next();
 		int n = name.length();

@@ -48,6 +48,11 @@ public class Pattern02 {
 				} // j loop
 			} // k loop
 		} // i loop
+		
+		
+		
+
+		
 
 	}
 
