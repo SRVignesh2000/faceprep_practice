@@ -1,8 +1,8 @@
-package day11;
+package day12;
 
 import java.util.Scanner;
 
-public class ArrayInsertion {
+public class ArrayInsertElement {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -33,6 +33,10 @@ public class ArrayInsertion {
 			} else {
 				newArr[i] = arr[i - 1];
 			}
+		}
+
+		System.out.println("Array after insertion is:");
+		for (int i = 0; i < newArr.length; i++) {
 			System.out.println(newArr[i]);
 		}
 

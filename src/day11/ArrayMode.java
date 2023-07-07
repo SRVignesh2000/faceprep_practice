@@ -29,7 +29,7 @@ public class ArrayMode {
 	    if(count == 0) {
 	      System.out.println("The mode of the array is none");
 	    } else {
-	      System.out.println("The mode of the array is "+ count);
+	    	System.out.println("Mode="+mode);
 	    }
 
 	}
