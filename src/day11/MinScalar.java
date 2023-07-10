@@ -57,6 +57,7 @@ public class MinScalar {
 //		for (int i = 0; i < n; i++) {
 //			arr2[i] = sc.nextInt();
 //		}
+		
 //		// ascending order for first arr1
 //		for (int i = 0; i < n; i++) {
 //			for (int j = i + 1; j < n; j++) {
