@@ -1,16 +1,15 @@
 package day02;
 
-import java.util.Scanner;
 
 public class Temperature {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Scanner sc = new Scanner(System.in);
+	//	Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the celcius");
 
-		float celcius = sc.nextFloat();
+		float celcius = 1.0f;
 
 		float kelvin = celcius + 273.15f;
 		float fahren = (celcius * 9 / 5) + 32;

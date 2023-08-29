@@ -6,6 +6,7 @@ public class MergeSortSingleArray {
 		public static void main(String args[]) {
 			int[] array = { 8, 2, 5, 3, 4, 7, 6, 1 };
 			mergeSort(array);
+			
 			for (int i = 0; i < array.length; i++) {
 				System.out.print(array[i] + " ");
 			}
