@@ -9,6 +9,7 @@ public class MergeSortSingleArray1 {
 		int right = end - mid;
 		int left_array[] = new int[left];
 		int right_array[] = new int[right];
+		
 		for (int i = 0; i < right; i++) {
 			right_array[i] = a[mid + 1 + i];
 		}

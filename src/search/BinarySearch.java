@@ -23,7 +23,7 @@ public class BinarySearch {
 
 			} else {
 
-				start = mid - 1;
+				end = mid - 1;
 
 				binarySearch(arr, start, end, num);
 			}
@@ -35,7 +35,7 @@ public class BinarySearch {
 
 	public static void main(String args[]) {
 		int[] arr = { 1, 2, 3, 4, 5, 6 };
-		int num = 5;
+		int num = 2;
 		int start = 0;
 		int end = arr.length - 1;
 

@@ -28,6 +28,12 @@ public class FactDigitSum {
 		} else {
 			finder(number, nums, facts, index - 1);
 		}
+		
+//	    while(number >= facts[index]){
+//	        number = number - facts[index];
+//	      	nums.add(index+1+"");
+//	    }
+//	    finder(number, nums, facts, index-1);
 
 	}
 
